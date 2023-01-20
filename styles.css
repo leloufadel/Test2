@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    flex-direction:row;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: 'Open sans';
+    color: black;
+  }
+@media(max-width:600px){
+}
+
+  #navbar{
+    background-color: white;
+    height: 80vh;
+    width: 400px;
+    margin-bottom: 40px;
+  }
+  #main-doc{
+ height: 100vh;
+    width:90%
+  }
+  .nav-link{
+    text-decoration:none;
+    line-height: 1.5;
+    font-family: 'Open sans';
+    color: black;
+  }
+  #ul-navbar{
+    list-style-type:none;
+  }
+  header{
+    color: black;
+    font-size: 1.8em;
+    font-weight: thin;
+  }
+  #navbar header{
+    text-align: center;
+  }
